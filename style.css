@@ -1,0 +1,59 @@
+body{
+    background-image: url(./img/fundo3.png);
+    width: 90%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+#one{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+}
+#two{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#logo{
+    position: absolute;
+    left: 45%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+}
+#bot{
+   display: flex;
+   justify-content: center;
+    
+}
+#log{
+    position: absolute;
+   left: 30%;
+    bottom: 10%;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+#log:hover{
+    background-color: rgb(202, 200, 200);
+    border-color: rgb(202, 200, 200);
+}
+#cad{
+    position: absolute;
+   left: 60%;
+    bottom: 10%;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+#cad:hover{
+    background-color: rgb(202, 200, 200);
+    border-color: rgb(202, 200, 200);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="conteiner">
+        <div id="cima">
+            <img src="../img/logo2-cozinha-removebg-preview.png" alt="" style="width: 100px; height: 80px;">
+            <h1>Login</h1>
+        </div><br>
+        <form action="login.php" method="post">
+            <label for="email" id="em">Seu e-mail:</label><br>
+            <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required><br><br>
+
+            <label for="senha" id="sen">Sua senha:</label><br>
+            <input type="password" name="senha" id="senha" placeholder="12345678" required maxlength="8"><br>
+            <a href="../esqueceuSenha/esquecer.html">Esqueceu sua senha?</a><br><br>
+
+            <input type="submit" id="ent" value="Entrar">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #ffd7d8;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #f1016d;
+    gap: 80%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color: #f1016d;
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+#but{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+#baixo{
+    position: absolute;
+    right: 10%;
+    margin-top: 2%;
+}
+#sobrenos{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#usuario{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+   
+}
+#treslinhas{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+#bots{
+    display: flex;
+    top: 50%;
+}
+main{
+    height: 1200px;
+}
+
+
+#receita1{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 1%;
+    height: 200px;
+    width: 190px;
+}
+.vermais{
+    margin-left: 45%;
+    background-color:#fa4866;
+    border-color: #fa4866;
+    border-radius: 20px;
+    cursor: pointer;
+    font: bold;
+    height: 30px;
+}
+.vermais:hover{
+    background-color: #ff1b41;
+    color: #e9e3e4;
+}
+
+#comida{
+    width: 100%;
+    height: 100px;
+}
+#receita2{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 21%;
+    height: 200px;
+    width: 190px;
+}
+#receita3{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 41%;
+    height: 200px;
+    width: 190px;
+}
+#receita4{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 61%;
+    height: 200px;
+    width: 190px;
+}
+#receita5{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 81%;
+    height: 200px;
+    width: 190px;
+}
+#receita6{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 1%;
+    height: 200px;
+    width: 190px;
+}
+#receita7{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 21%;
+    height: 200px;
+    width: 190px;
+}
+#receita8{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 41%;
+    height: 200px;
+    width: 190px;
+}
+#receita9{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 61%;
+    height: 200px;
+    width: 190px;
+}
+#receita10{
+    padding: 30px;
+    background-color: rgb(255, 167, 197);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 81%;
+    height: 200px;
+    width: 190px;
+}
+
+#compartilhe{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#com{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 1%;
+}
+#compartilhar{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+#compartilhar:hover{
+    height: 31px;
+}
+
+.recipe{
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%,-50%);
+    background-color: #e9e3e4;
+    margin-top: 25%;
+    border-radius: 30px;
+}
+h3{
+    color: #7c0317;
+}
+.recipe.open{
+    display: block;
+}
+.fechar{
+    height: 30px;
+    width: 30px;
+    background-color: #7c0317;
+    border-radius: 20px;
+    border-color: #7c0317;
+    color: white;
+    cursor: pointer;
+}
+.fechar:hover{
+    background-color: #f1016d;
+    border-color: #f1016d;
+}
+.partecima{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+
+.title{
+    color: #7c0317;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+
